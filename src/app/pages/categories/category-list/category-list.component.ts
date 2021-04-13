@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoryListComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  //Adicionei para parar erro no categoryListComponent
+  alert() {
+
+  }
 }
